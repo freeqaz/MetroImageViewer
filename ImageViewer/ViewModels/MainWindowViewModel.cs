@@ -43,7 +43,7 @@ namespace MetroImageViewer.ViewModels
 
             _bus = bus;
             bus.Subscribe(this);
-            this.DisplayName = "MetroImageViewer Image Viewer";
+            this.DisplayName = "Metro Image Viewer";
 
             var images = new BindableCollection<ImageViewModel>();
 

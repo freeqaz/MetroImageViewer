@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CommonServiceLocator.AutofacAdapter.Unofficial</id>
+    <version>3.0.2.1</version>
+    <title>CommonServiceLocator.AutofacAdapter.Unofficial</title>
+    <authors>Luis Bocaletti</authors>
+    <owners>Luis Bocaletti</owners>
+    <iconUrl>http://code.google.com/p/autofac/logo</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An unofficial Autofac Adapter for the Common Service Locator</description>
+    <summary>Provides an Autofac-specific implementation of the Commmon Service Locator API</summary>
+    <language>en-us</language>
+    <dependencies>
+      <dependency id="Autofac" version="3.0.2" />
+      <dependency id="CommonServiceLocator" version="1.0" />
+      <dependency id="NuGet.PackageNPublish" version="0.6.0.1" />
+    </dependencies>
+    <references>
+      <reference file="CommonServiceLocator.AutofacAdapter.Unofficial.dll" />
+    </references>
+  </metadata>
+</package>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Bootstrapper.Autofac</id>
+    <version>2.0.3.7</version>
+    <title>Bootstrapper.Autofac</title>
+    <authors>Karan Misra, Luis Bocaletti</authors>
+    <owners>Karan Misra, Luis Bocaletti</owners>
+    <licenseUrl>http://bootstrapper.codeplex.com/license</licenseUrl>
+    <projectUrl>http://bootstrapper.codeplex.com/</projectUrl>
+    <iconUrl>http://i3.codeplex.com/Download?ProjectName=bootstrapper&amp;DownloadId=289179</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Autofac extension for Bootstrapper</description>
+    <summary>Autofac extension for Bootstrapper.</summary>
+    <releaseNotes />
+    <copyright />
+    <language>en-us</language>
+    <dependencies>
+      <dependency id="Autofac" version="3.0.2" />
+      <dependency id="Bootstrapper" version="2.0.3.7" />
+      <dependency id="CommonServiceLocator" version="1.0" />
+      <dependency id="CommonServiceLocator.AutofacAdapter.Unofficial" version="3.0.2.1" />
+      <dependency id="NuGet.PackageNPublish" version="0.6.0.1" />
+    </dependencies>
+    <references>
+      <reference file="Bootstrapper.Autofac.dll" />
+    </references>
+  </metadata>
+</package>

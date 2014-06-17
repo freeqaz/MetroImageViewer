@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>MemBus</id>
+    <version>2.0.2</version>
+    <title>MemBus</title>
+    <authors>Frank Quednau</authors>
+    <owners>Frank Quednau</owners>
+    <licenseUrl>http://www.opensource.org/licenses/apache2.0</licenseUrl>
+    <projectUrl>http://github.com/flq/MemBus</projectUrl>
+    <iconUrl>http://realfiction.net/files/bus.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>In-memory publish-subscribe bus with pluggable subscription and publishing pipeline, first-class support of Observables, contravariant messaging and resolution of handlers through pluggable IOC.</description>
+    <releaseNotes>Addition that makes connecting to IoC handlers more flexible with regard to message types.</releaseNotes>
+    <copyright />
+    <language>en-us</language>
+    <tags>event-aggregator messaging bus .net40</tags>
+    <references>
+      <reference file="MemBus.dll" />
+    </references>
+  </metadata>
+</package>
